@@ -3,10 +3,13 @@
   flex-direction: column;
   align-items: center;
 }
+
 #taskInput {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 0px;
+  font-size:
 }
 #taskRequest {
   margin-right: 10px;
@@ -15,15 +18,20 @@
   background-color: sandybrown;
   border: none;
   color: white;
-  padding: 10px;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-left: 10px;
-  font-size: 1em;
+  font-size: 1.15em;
 }
 #taskInput input {
   padding: 0px;
   margin: 0px;
+  font-size: 1.15em;
 }
-
+#taskNameTextBox {
+  width: 50%;
+}
 
 h3 {
   font-weight: lighter;
@@ -32,21 +40,33 @@ h3 {
 }
 h5 {
   font-weight: lighter;
-  font-size: 1em;
+  font-size: 1.2em;
   color: lightslategrey;
 }
 ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   list-style: none;
+}
+ul h5 {
+  text-align: center;
 }
 ul li {
   display: flex;
+  align-items: center;
+  justify-content: left;
   background-color: sandybrown;
   padding: : 10px;
   color: white;
 }
 ul li button {
-  margin-left: 25%;
+  margin-left: 25px;
+  padding: 10px;
+  border: none;
+  background-color: sandybrown;
+  color: slategray;
 }
 ul li input {
-  margin-right: 25%;
+  margin-right: 25px;
 }
